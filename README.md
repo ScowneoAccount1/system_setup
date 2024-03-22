@@ -1,14 +1,14 @@
 # system_setup
 note: while nvim config is in the ~/.config directory, that tmux file is just in root. so it should be ~/.tmux.conf
 
-##install nvim with:
+## install nvim with:
 
 ```sudo apt-get install neovim``` [debian only, not ubuntu, i think]
 
 ```git clone https://github.com/ScowneoAccount1/system_setup/tree/main/nvim ~/.config/nvim```
 
 
-##install tmux'with:
+## install tmux'with:
 ```sudo apt-get install tmux```\n
 ```git clone https://github.com/ScowneoAccount1/system_setup/blob/main/.tmux.conf ~/``` [automatically copies the config]
 
@@ -19,10 +19,13 @@ note: while nvim config is in the ~/.config directory, that tmux file is just in
 ```tmux``` <leader> I
 
 
-##fonts
-(link for "JetBrainsMono NF")[https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip]
+## fonts
+you can just download the zip for "JetBrainsMono NF" file from here with
 
-```sudo cp -r ~/Downloads/JetBrainsMonoNF/ /usr/share/fonts```
+```git clone https://github.com/ScowneoAccount1/system_setup/blob/main/JetBrainsMonoNF.tar.gz ~/Downloads/```
+(or alternatively here, but takes x5 memory)[https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip]
+
+```sudo cp -r ~/Downloads/JetBrainsMonoNF/ /usr/share/fonts/```
 
 for regular "JetBrains Mono" just run
 
@@ -31,7 +34,7 @@ for regular "JetBrains Mono" just run
 ```fc-cache```
 
 
-##oh-my-zsh's theme:
+## oh-my-zsh's theme:
 ```sudo apt-get install zsh```
 
 ```sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"```
