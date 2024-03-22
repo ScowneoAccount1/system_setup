@@ -1,4 +1,6 @@
 # system_setup
+note: while nvim config is in the ~/.config directory, that tmux file is just in root. so it should be ~/.tmux.conf
+
 install nvim with:
 `sudo apt-get install neovim` [debian only, not ubuntu, i think]
 
