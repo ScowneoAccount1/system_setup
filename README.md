@@ -1,8 +1,10 @@
 # system_setup
-install nvim with
+install nvim with:
+
 `sudo apt-get install neovim` [debian only, not ubuntu, i think]
 
 install tmux's plugins with:
+
 `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
 oh-my-zsh's theme:
