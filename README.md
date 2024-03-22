@@ -9,7 +9,8 @@ note: while nvim config is in the ~/.config directory, that tmux file is just in
 
 
 ## install tmux'with:
-```sudo apt-get install tmux```\n
+```sudo apt-get install tmux```
+
 ```git clone https://github.com/ScowneoAccount1/system_setup/blob/main/.tmux.conf ~/``` [automatically copies the config]
 
 ```git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm``` [installs tpm]
